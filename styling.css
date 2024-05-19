@@ -1,0 +1,440 @@
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  .header {
+    background-color: #f2f2f2;
+    padding: 2px;
+    text-align:center;
+    font-size: large;
+  }
+  .logo-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0 10px; 
+  }
+  
+  .logo img {
+    width: 100px; 
+  }
+  
+  .social-icons {
+    display: flex;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  .social-icons img {
+    width: 30px; 
+  }
+  
+  .top-bar {
+    border-bottom: 2px solid #d2afaf;
+  }
+  nav ul {
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #bea0a0;;
+  }
+  
+  nav ul li {
+    display:inline;
+    margin: 10px;
+    text-decoration: none;
+    font-size:x-large;
+  }
+  nav ul li a {
+    display:inline;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  a:hover
+  {
+    background-color: rgb(238, 116, 116);
+  }
+    
+    
+    button[type="submit"] {
+      padding: 10px 20px;
+      background-color: #1E90FF;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  
+    /*ContactStyling*/
+  .contact_form{
+    text-align: justify;
+    align-items: center;
+    margin: 10px;
+    padding-left: 5%;
+    padding-top: 2%;
+  
+  }
+    .msgg{
+      align-items: start;
+      padding-top: 5%;
+      
+    }
+    
+    .business-info {
+      flex-basis: 40%;
+      position: absolute;
+      align-items: center;
+      text-align: justify;
+      right: 10%;
+      top: 30%;
+      padding: 10px;
+    }
+    .google{
+      
+      align-items: center;
+      text-align: justify;
+      position: absolute;
+      right: 10%;
+      top: 50%;
+      padding: 10px;
+    }
+/*signup*/
+.contact-form{
+  text-align: center;
+  align-items: center;
+  margin: 10px;
+  padding-left: 5%;
+  padding-top: 2%;
+
+
+}
+.link{
+  padding: 10px 20px;
+  background-color: #2e2f2f; 
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;  
+
+ }  
+.AccountButton
+{
+ margin-top: 5%;
+  margin-left: 40%;}
+a:hover
+{
+ background-color: rgb(66, 66, 220);}
+a:hover
+{
+   background-color: rgb(66, 66, 220);}
+
+   .contact-form button {
+    padding: 10px 20px;
+    background-color: #2e2f2f; 
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 15%;
+  }
+  
+  .contact-form button:hover {
+    background-color: #d08024;
+  }
+    /*AboutStyling*/
+    .slider-img{
+        background-size: cover;
+        
+    }
+.About h1
+{ 
+    margin-top: 50px;
+  color: rgb(133, 50, 50);
+  background-color: beige;
+  text-align: center;
+  font-style:italic;
+  text-decoration: wavy;
+  margin-left: 15%;
+}
+.About p{
+    text-align:center;
+    font-size: medium;
+    font-style: italic;
+    text-indent: 5px;
+    color: #4f4d4d;
+}
+.About h2{
+  font-size:larger;
+  font-style: italic;
+  text-align:justify;
+  color: #8c2424;
+  
+}
+.About h3{
+  color: #de3949;
+  font-size: medium;
+  font-style: italic;
+  text-align: center;
+}
+
+
+/*HomeStyling*/
+.banner-slider {
+    height: 200px; 
+    background-color: grey; 
+  }
+  
+  .product-container {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+  }
+  
+  .product img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .product p {
+    text-align: center;
+  }
+  .intro{
+    text-align: center;
+  }
+  
+  .intro h1{
+    color: rgb(133, 50, 50);
+    background-color: beige;
+    text-align: center;
+    font-style:italic;
+    text-decoration: wavy;
+    margin-left: 15%;
+  }
+  
+  .intro h3{
+    color: rgb(55, 56, 56);
+    text-align:none;
+    font-size: medium;
+    font-style: italic;
+   
+  }
+  .intro h2{
+    margin-left: 20px;
+    color: rgb(26, 25, 25);
+  }
+  .slider {
+    object-fit: cover;
+    width: 100%;
+    overflow: hidden;
+    padding:20px;
+   
+  }
+  
+  .slider {
+    object-fit: cover;
+    object-position: 100;
+    display: grid;
+    transition: transform 0.5s ease;
+    align-content: center;
+  }
+  
+  .banner-video
+  {
+      position:relative;
+      right: 0px;
+      width: 200px;
+      bottom: 0px;
+  }
+  @media (min-aspect-ratio:16/9) {
+      .banner-video
+      {
+          width: 100%;
+          height: auto;
+      }
+  }
+  @media (max-aspect-ratio:16/9) {
+      .banner-video
+      {
+          width: auto;
+          height: 50%;
+      }
+    }
+  /*productStyling*/
+    
+  .product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 120%;
+  }
+  
+  .product {
+    border: 0px solid #ddd;
+    padding: 0px;
+    margin: 5px;
+    width: calc(33.333% - 10px); 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .product img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px; 
+  }
+  
+  .product p {
+    color: #8c2424;
+    text-align: center;
+    margin: 0; 
+  }
+  
+      
+      /*ProductsDetails Styling*/
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f8f8f8;
+    font-size: x-large;
+}
+.product-details {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.product-image {
+   
+    margin-left: 25%;
+    margin-right: 10%;;
+}
+
+.product-info {
+    width: 50%;
+    display: block;
+    align-items: center;
+    margin-right: 12%;
+  }
+  
+  .product-info h4 ,p{
+    margin-top: 40%;
+    display: inline;
+    margin-right: 30px; 
+    font-size:x-large;
+    
+  }
+  
+  .product-info p {
+    margin: 0; 
+  }
+.product-description {
+    padding: 20px;
+   
+}
+.product-description h3,h4, p{
+    font-size: medium;
+
+}
+.product-description{
+    font-style: italic;
+   text-align: justify;
+}
+.product-info button{
+    padding: 10px 20px;
+    background-color: #de3949;
+    border-radius:5px; 
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: medium;
+    cursor: pointer;
+    margin-right: 35px;
+    position: relative;
+align-items: center;
+margin-top: 7%;
+}
+button:hover
+{
+    
+    background-color: #36d162;
+}
+
+
+    footer {
+        background-color: #fbf7f7;
+        color: rgb(7, 7, 7);
+        text-align: center;
+        padding: 10px;
+          
+      }
+      
+      .footer-container {
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 20px;
+      }
+      
+      .footer-section h4 {
+        margin-bottom: 20px; 
+      }
+      
+      .footer-section p,
+      .footer-section a {
+        display: block;
+        margin-top: 0; 
+        margin-bottom: 5px;
+      }
+      .footer-section p{
+      color: rgb(76, 74, 74);
+      }
+      .footer-section ul {
+        list-style: none;
+        padding: 0;
+      }
+      
+      .footer-section ul li a {
+        color: rgb(76, 74, 74);
+        text-decoration: none;
+      }
+      
+      
+      .newsletter-bar {
+        background-color: #555252; 
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      
+      .newsletter-bar form {
+        margin-top: 10px;
+      }
+      
+      .newsletter-bar input[type="email"] {
+        padding: 10px;
+        margin-right: 5px;
+        border: none;
+        border-radius: 5px;
+      }
+      
+      .newsletter-bar button {
+        padding: 10px 20px;
+        background-color: #2e2f2f; 
+        color: white;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+      
+      .newsletter-bar button:hover {
+        background-color: #d08024;
+      }
